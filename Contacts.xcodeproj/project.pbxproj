@@ -14,6 +14,9 @@
 		4229D46D237923F90048D7FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4229D46B237923F90048D7FD /* LaunchScreen.storyboard */; };
 		4229D478237923FA0048D7FD /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4229D477237923FA0048D7FD /* ContactsTests.swift */; };
 		4229D483237923FA0048D7FD /* ContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4229D482237923FA0048D7FD /* ContactsUITests.swift */; };
+		4229D491237925F60048D7FD /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4229D490237925F60048D7FD /* Name.swift */; };
+		4229D493237927F20048D7FD /* EnterNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4229D492237927F20048D7FD /* EnterNameVC.swift */; };
+		4229D49523792E580048D7FD /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4229D49423792E580048D7FD /* TextTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		4229D47E237923FA0048D7FD /* ContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4229D482237923FA0048D7FD /* ContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsUITests.swift; sourceTree = "<group>"; };
 		4229D484237923FA0048D7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4229D490237925F60048D7FD /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		4229D492237927F20048D7FD /* EnterNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameVC.swift; sourceTree = "<group>"; };
+		4229D49423792E580048D7FD /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		4229D461237923F70048D7FD /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				4229D49423792E580048D7FD /* TextTableViewCell.swift */,
 				4229D462237923F70048D7FD /* AppDelegate.swift */,
 				4229D464237923F70048D7FD /* ViewController.swift */,
+				4229D492237927F20048D7FD /* EnterNameVC.swift */,
+				4229D490237925F60048D7FD /* Name.swift */,
 				4229D466237923F70048D7FD /* Main.storyboard */,
 				4229D469237923F90048D7FD /* Assets.xcassets */,
 				4229D46B237923F90048D7FD /* LaunchScreen.storyboard */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4229D493237927F20048D7FD /* EnterNameVC.swift in Sources */,
+				4229D491237925F60048D7FD /* Name.swift in Sources */,
 				4229D465237923F70048D7FD /* ViewController.swift in Sources */,
 				4229D463237923F70048D7FD /* AppDelegate.swift in Sources */,
+				4229D49523792E580048D7FD /* TextTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
